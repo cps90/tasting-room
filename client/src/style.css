@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif; 
+    color: rgb(60, 60, 60);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+   text-decoration: underline; 
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.homeLink {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.4em;
+    color: rgb(60, 60, 60);
+}
+
+.winelist {
+    width: 90%;
+    margin: auto;
+    background-color: rgba(219, 219, 219, 0.829);
+    padding: 1px 10px;
+    display: grid;
+}
+
+
+
+.homeHeader {
+    background-image: url("https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?ixlib=rb-0.3.5&s=3f6229884adb4d969d26e1a8e3e33854&auto=format&fit=crop&w=1950&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto 0 auto 
+}
+.homeHeader h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(188, 143, 143, 0.637);
+    color: rgba(240, 226, 233, 0.911);
+    font-size: 2.25em;
+    letter-spacing: .02em;
+}
+
+.homeDescription {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+.spacerDots {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: rgb(128, 128, 128);
+}
+
+.homeLink {
+    padding-left: 10px;
+}
+
+
+/*  mobile  */
+@media screen and (min-width: 360px) {
+    .navWide {
+        display: none;
+    }
+
+    .navNarrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid rgb(60, 60, 60) 1px;
+    }
+
+    .foodList {
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+
+    .foods {
+        display: grid;
+        margin-bottom: 30px;
+    }
+
+    .foodImage {
+        width: 90%;
+        margin: auto;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .foodName {
+        margin: auto;
+        width: 90%;
+        text-align: center;
+        font-family: 'Raleway', sans-serif; 
+        padding: 10px 0 10px 0;
+        background-color: rgba(219, 219, 219, 0.829);
+
+    }
+    
+    .suggestion {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sugImage {
+        height: 300px;
+        width: 95%;
+        display: block;
+        object-fit: cover;
+        margin: 0 auto 0 auto;
+    }
+
+    .sugName {
+        margin: auto;
+        width: 95%;
+        text-align: center;
+        font-family: 'Raleway', sans-serif; 
+        padding: 10px 0 10px 0;
+        background-color: rgba(219, 219, 219, 0.829);
+    }
+
+    .sugDesc {
+        margin: auto;
+        width: 95%;
+        font-family: 'Raleway', sans-serif; 
+        padding: 15px;
+        background-color: rgba(219, 219, 219, 0.829);
+    }
+
+    .sugLink {
+        font-family: 'PT Serif', serif;
+        width: 95%;
+        margin: 20px auto;
+        font-style: italic;
+    }
+    .form {
+        width: 95%;
+        background-color:  rgba(219, 219, 219, 0.829);
+        margin: auto;
+        display: grid;
+    }
+
+    .commentForm {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    
+    .commentForm input {
+        padding: 6px;
+        font-size: .7em;
+        border-radius: 5px;
+    }
+
+    .submitButton {
+        margin: 0 auto 30px auto;
+        padding: 5px;
+        font-size: .7em;
+        border-radius: 5px;
+
+    }
+
+    .commentBox {
+        width: 95%;
+        background-color:  rgba(219, 219, 219, 0.829);
+        margin: auto;
+        display: grid;
+        grid-template-columns: 20% 40% 25% 15%;
+        border-bottom: solid 1px  rgb(128, 128, 128);
+    }
+
+    .commentBox p {
+        text-align: center;
+        font-size: .8em;
+    }
+
+
+}
+
+
+/*  tablet  */
+@media screen and (min-width: 700px) {
+    .navNarrow {
+        display: none;
+    }
+
+    .navWide {
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            padding: 10px 0 10px 0;
+            vertical-align: center;
+            border-bottom: solid rgb(60, 60, 60) 1px;
+    }
+
+    .foodList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+
+    .foods {
+        display: grid;
+        margin-bottom: 30px;
+    }
+
+    .sugImage {
+        height: 350px;
+        width: 600px;
+        display: block;
+        object-fit: cover;
+        margin: 0 auto 0 auto;
+    }
+
+    .sugName {
+        margin: auto;
+        width: 600px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif; 
+        padding: 10px 0 10px 0;
+        background-color: rgba(219, 219, 219, 0.829);
+    }
+
+    .sugDesc {
+        margin: auto;
+        width: 600px;
+        font-family: 'Raleway', sans-serif; 
+        padding: 15px;
+        background-color: rgba(219, 219, 219, 0.829);
+    }
+
+    .sugLink {
+        font-family: 'PT Serif', serif;
+        width: 600px;
+        margin: 30px auto;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .form {
+        width: 600px;
+        background-color:  rgba(219, 219, 219, 0.829);
+        margin: auto;
+        display: grid;
+    }
+    .commentForm {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    
+    .commentForm input {
+        padding: 6px;
+        font-size: .7em;
+        border-radius: 5px;
+    }
+
+    .submitButton {
+        margin: 0 auto 30px auto;
+        padding: 5px;
+        font-size: .7em;
+        border-radius: 5px;
+
+    }
+
+    .commentBox {
+        width: 600px;
+        background-color:  rgba(219, 219, 219, 0.829);
+        margin: auto;
+        display: grid;
+        grid-template-columns: 20% 40% 25% 15%;
+        border-bottom: solid 1px  rgb(128, 128, 128);
+    }
+
+    .commentBox p {
+        text-align: center;
+        font-size: .9em;
+    }
+
+}
+
+/*   desktop   */
+@media screen and (min-width: 1000px) {
+    .navNarrow {
+        display: none;
+    }
+
+    .navWide {
+        display: flex;
+        justify-content: space-around;
+        width: 900 px;
+        margin: auto;
+        padding: 10px 0 10px 0;
+        vertical-align: center;
+        border-bottom: solid rgb(60, 60, 60) 1px;
+    }
+
+    .foodList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+
+    .foods {
+        display: grid;
+        margin-bottom: 30px;
+    }
+
+    .sugImage {
+        height: 450px;
+        width: 700px;
+        display: block;
+        object-fit: cover;
+        object-position: 0 30%;
+        margin: 0 auto 0 auto;
+    }
+
+    .sugName {
+        margin: auto;
+        width: 700px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif; 
+        padding: 15px 0 15px 0;
+        background-color: rgba(219, 219, 219, 0.829);
+        font-size: 1.4em;
+    }
+
+    .sugDesc {
+        margin: auto;
+        width: 700px;
+        font-family: 'Raleway', sans-serif; 
+        padding: 20px;
+        background-color: rgba(219, 219, 219, 0.829);
+    }
+
+    .sugLink {
+        font-family: 'PT Serif', serif;
+        width: 700px;
+        margin: 30px auto;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .form {
+        width: 700px;
+        background-color:  rgba(219, 219, 219, 0.829);
+        margin: auto;
+        display: grid;
+    }
+    .commentForm {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    
+    .commentForm input {
+        padding: 10px;
+        font-size: .8em;
+        border-radius: 5px;
+    }
+
+    .submitButton {
+        margin: 0 auto 30px auto;
+        padding: 5px;
+        font-size: .8em;
+        border-radius: 5px;
+
+    }
+
+    .commentBox {
+        width: 700px;
+        background-color:  rgba(219, 219, 219, 0.829);
+        margin: auto;
+        display: grid;
+        grid-template-columns: 20% 40% 25% 15%;
+        border-bottom: solid 1px  rgb(128, 128, 128);
+    }
+
+    .commentBox p {
+        text-align: center;
+        font-size: .9em;
+    }
+
+}
+

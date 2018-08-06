@@ -1,0 +1,44 @@
+[
+  {
+    "variety": "Sauvignon Blanc",
+    "description": "Sauvignon Blanc is a dry but refreshing white wine that is low in sugar and high in acid.  It is known for it's crispness with notes of herbs and grasses.",
+    "style": "Light to medium body",
+    "taste": "Herbal, green fruit flavors. Citrus driven, balanced by aromas of exotic fruits - honeydew melon, kiwi.  Always an herbaceous quality - grass, mint, green pepper.",
+    "comments": []
+  },
+  {
+    "variety": "Cabernet Sauvignon",
+    "description": "Cabernet Sauvignon is a dry, full-bodied red wine known for bold tannins and persistent finish. It has a full-textured mouth feel that can be attributed to it's high alcohol content -- up to 15% in some cases. The most popular wine variety in the world.",
+    "style": "Full body",
+    "taste": "Dark fruit flavors such as black cherries, plums, and blackberry. Complex profile that can translate to chocolate, coffee, or baking spices. Common to note vanilla, tobacco, or cedar especially if aged in oak.",
+    "comments": []
+  },
+  {
+    "variety": "Zinfandel",
+    "description": "Zinfandel is a dark purple red wine that is known for its robust flavor and high intensity. It is high in alcohol content with jammy, fruity characteristics. The old vine style typically takes on more earthy, musty characteristics such as oak, barnyard and truffles.",
+    "style": "Medium to full body",
+    "taste": "Hints of ripe plumb, raisin, berries, leather, and earth. Can sometimes exhibit spiciness with flavors such as asian 5 spice or cinnamon. Look for varieties aged in oak which will intensify the earthy flavors.",
+    "comments": []
+  },
+  {
+    "variety": "Syrah",
+    "description": "Syrah is responsible for some of the darkest full-bodied red wines in the world. Dark fruit flavors from blueberry to black olive. Front-loaded style that packs a punch of flavor and is accompanied by a weaker, but spicy aftertaste.",
+    "style": "Full body",
+    "taste": "Fruit flavors of blackberry and blueberry that can range from tart to jammy. Other notes of olive, pepper, clove, vanilla, licorice, chocolate, and smoke.",
+    "comments": []
+  },
+  {
+    "variety": "Gewurztraminer",
+    "description": "A sumptuous, golden white wine rich with exotic fruit flavors of lychee, passion fruit, honeysuckle, and roses. Fragrant and aromatic with medium acidity body. Gewurztraminer is often made in dry to off-dry style, however is often mistaken for sweet given its dynamic aromatics and fuller mouthfeel.",
+    "style": "Medium body",
+    "taste": "Tell-tale flavor and aroma of lychee. Profile also includes, rose petal, ginger, pineapple. Can linger with a smoky and spicy aftertaste not common for whites.",
+    "comments": []
+  },
+  {
+    "variety": "Reisling",
+    "description": "Reisling is fruit-forward and floral white wine that comes in varying degrees of sweetness. Always very high in acid giving it a tart taste that can make the mouth water. Known for its intense citrus flavor of lemons and limes. Usually lower in alcohol.",
+    "style": "Light body",
+    "taste": "Citrus, stone-fruit (peach, nectarine), honey accompanied by floral and sweet herbal elements. Most varieties are on the sweeter side to balance the wine's high acidity.",
+    "comments": []
+  }
+]
