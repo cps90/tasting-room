@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
 const path = require("path")
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5800
 const secret = process.env.SECRET || "some secret passphrase here for local development"
 require('dotenv').config()  
 
