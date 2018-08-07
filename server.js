@@ -13,7 +13,7 @@ app.use(morgan('dev'))
 app.use(express.static(path.join(__dirname, "client", "build")))
 
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/taskmanager', (err) => {
+mongoose.connect(process.env.MONGOLAB_MAUVE_URI || 'mongodb://localhost/taskmanager', (err) => {
     if (err) throw err
     console.log('Connected to database')
 })
