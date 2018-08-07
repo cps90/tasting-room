@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +12,11 @@
     "express": "^4.16.3",
     "mongoose": "^5.1.5",
     "morgan": "^1.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "engines": {
     "node": "v8.11.2"
